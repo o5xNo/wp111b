@@ -18,10 +18,9 @@ p {
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
   background-color: rgb(58, 57, 57);
   border: 7px solid rgb(255, 255, 0);
-  text-align: left;
   width: 300px;
   padding: 40px;
-  margin: 20px;
+  margin: auto;
  }
  div {
   color: rgb(255,255,255);
@@ -29,9 +28,8 @@ p {
   background-color: rgb(58, 57, 57);
   width: 300px;
   border: 15px solid rgb(255, 255, 0);
-  width: 300px;
   padding: 40px;
-  margin: 20px;
+  margin: auto;
 }
 label {
   color: rgb(255,255,255);
