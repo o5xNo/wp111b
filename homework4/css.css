@@ -3,14 +3,14 @@ body {
 }
 h1,h2,h3,h4,h5,h6,h7,h8,h9,h10 {
   color: rgb(255, 187, 0);
-  margin: auto;
+  text-align:center;
   font-family: verdana;
   font-family: "fantasy","papyrus" ,cwTeXKai ,DFKai-SB;
   }
 p {
   color: rgb(206, 246, 245);
   font-size: 24px;
-  margin: auto;
+  text-align:center;
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
  }
  pre{
@@ -31,33 +31,34 @@ p {
   padding: 40px;
   margin: auto;
 }
-label all{
+label all {
   color: rgb(206, 246, 245);
   font-size: 24px;
-  margin: auto;
+  text-align:center;
   font-family: "Lucida Console", "Courier New", monospace,DFKai-SB;
 }
 input {
   color: rgb(206, 246, 245);
   font-size: 24px;
-  margin: auto;
+  text-align:center;
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
 }
 select {
   color: rgb(206, 246, 245);
   font-size: 24px;
-  margin: auto;
+  text-align:center;
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
 }
 textarea {
   color: rgb(206, 246, 245);
   font-size: 24px;
-  margin: auto;
+  text-align:center;
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
 }
 a{
   color: rgb(8, 0, 255);
   font-size: 24px;
+  display: block;
   margin: auto;
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
 }
@@ -78,7 +79,7 @@ tbody{
 ul,ol{
   color: rgb(206, 246, 245);
   font-size: 24px;
-  margin: auto;
+  text-align:center;
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
 }
  img{
