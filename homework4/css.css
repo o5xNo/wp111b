@@ -34,13 +34,13 @@ p {
 label {
   color: rgb(255,255,255);
   font-size: 24px;
-  text-align: center;
+  margin: auto;
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
 }
 input {
   color: rgb(255,255,255);
   font-size: 24px;
-  text-align: center;
+  margin: auto;
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
 }
 select {
@@ -58,7 +58,7 @@ textarea {
 a{
   color: rgb(8, 0, 255);
   font-size: 24px;
-  text-align: center;
+  margin: auto;
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
 }
 thead{
