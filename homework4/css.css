@@ -8,13 +8,13 @@ h1,h2,h3,h4,h5,h6,h7,h8,h9,h10 {
   font-family: "fantasy","papyrus" ,cwTeXKai ,DFKai-SB;
   }
 p {
-  color: rgb(255,255,255);
+  color: rgb(206, 246, 245);
   font-size: 24px;
   margin: auto;
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
  }
  pre{
-  color: rgb(255,255,255);
+  color: rgb(206, 246, 245);
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
   background-color: rgb(58, 57, 57);
   border: 7px solid rgb(255, 255, 0);
@@ -23,7 +23,7 @@ p {
   margin: auto;
  }
  div {
-  color: rgb(255,255,255);
+  color: rgb(206, 246, 245);
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
   background-color: rgb(58, 57, 57);
   width: 300px;
@@ -31,26 +31,26 @@ p {
   padding: 40px;
   margin: auto;
 }
-label {
-  color: rgb(255,255,255);
+label all{
+  color: rgb(206, 246, 245);
   font-size: 24px;
   margin: auto;
-  font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
+  font-family: "Lucida Console", "Courier New", monospace,DFKai-SB;
 }
 input {
-  color: rgb(255,255,255);
+  color: rgb(206, 246, 245);
   font-size: 24px;
   margin: auto;
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
 }
 select {
-  color: rgb(255,255,255);
+  color: rgb(206, 246, 245);
   font-size: 24px;
   margin: auto;
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
 }
 textarea {
-  color: rgb(255,255,255);
+  color: rgb(206, 246, 245);
   font-size: 24px;
   margin: auto;
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
@@ -76,11 +76,12 @@ tbody{
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
 }
 ul,ol{
-  color: rgb(255,255,255);
+  color: rgb(206, 246, 245);
   font-size: 24px;
   margin: auto;
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
 }
  img{
+  display: block;
   margin: auto;
 }
