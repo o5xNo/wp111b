@@ -8,13 +8,13 @@ h1,h2,h3,h4,h5,h6,h7,h8,h9,h10 {
   font-family: "fantasy","papyrus" ,cwTeXKai ,DFKai-SB;
   }
 p {
-  color: rgb(206, 246, 245);
+  color: rgb(184, 245, 244);
   font-size: 24px;
   text-align:center;
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
  }
- pre{
-  color: rgb(206, 246, 245);
+ pre {
+  color: rgb(184, 245, 244);
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
   background-color: rgb(58, 57, 57);
   border: 7px solid rgb(255, 255, 0);
@@ -23,7 +23,7 @@ p {
   margin: auto;
  }
  div {
-  color: rgb(206, 246, 245);
+  color: rgb(184, 245, 244);
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
   background-color: rgb(58, 57, 57);
   width: 300px;
@@ -31,31 +31,31 @@ p {
   padding: 40px;
   margin: auto;
 }
-label {
-  color: rgb(206, 246, 245);
+label form{
+  color: rgb(184, 245, 244);
   font-size: 24px;
   text-align:center;
   font-family: "Lucida Console", "Courier New", monospace,DFKai-SB;
 }
-input {
-  color: rgb(206, 246, 245);
+input form{
+  color: rgb(184, 245, 244);
   font-size: 24px;
   text-align:center;
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
 }
 select {
-  color: rgb(206, 246, 245);
+  color: rgb(184, 245, 244);
   font-size: 24px;
   text-align:center;
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
 }
 textarea {
-  color: rgb(206, 246, 245);
+  color: rgb(184, 245, 244);
   font-size: 24px;
   text-align:center;
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
 }
-a{
+a form {
   color: rgb(8, 0, 255);
   font-size: 24px;
   display: block;
@@ -63,21 +63,21 @@ a{
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
 }
 thead{
-  color: rgb(249, 255, 86);
+  color: rgb(184, 245, 244);
   background-color: rgb(108, 107, 107);
   font-size: 30px;
   margin: auto;
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
 }
 tbody{
-  color: rgb(168, 248, 255);
+  color: rgbrgb(184, 245, 244);
   background-color: rgb(108, 107, 107);
   font-size: 24px;
   margin: auto;
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
 }
 ul,ol{
-  color: rgb(206, 246, 245);
+  color: rgb(184, 245, 244);
   font-size: 24px;
   text-align:center;
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
