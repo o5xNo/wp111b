@@ -58,7 +58,7 @@ textarea {
   text-align:center;
   font-family: "Lucida Console", "Courier New", monospace, DFKai-SB;
 }
-a form {
+a {
   color: rgb(255, 0, 0);
   font-size: 30px;
   display: block;
