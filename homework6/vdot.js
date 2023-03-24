@@ -1,10 +1,10 @@
-function vadd(a,b)
+function vdot(a,b)
 {
-    var x=[];
+    var x=0;
 
     for(var i=0;i<a.length;i++)
     {
-        x[i]=a[i]+b[i];
+        x=a[i]*b[i]+x;
     }
     return x;
 }
