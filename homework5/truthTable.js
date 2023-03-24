@@ -20,4 +20,4 @@ function truthTable(a)
     }
 }
 
-console.log(truthTable(4));
+truthTable(4);
