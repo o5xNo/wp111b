@@ -1,4 +1,4 @@
-function madd(a,b)
+function mmul(a,b)
 {
     var x=[[],[]];
     
@@ -19,4 +19,4 @@ function madd(a,b)
 }
 
 var a=[[1,4],[2,3]],b=[[3,1],[5,2]];
-console.log(madd(a,b));
+console.log(mmul(a,b));
