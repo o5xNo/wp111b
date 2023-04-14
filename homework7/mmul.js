@@ -1,35 +1,38 @@
 class Matrix {
     constructor(m) {
-        this.m = m
+        m = [[],[]]
+        this.m = m 
+
     }
 
-    add(b) {
-        // ...
-    }
+    add(a,b) {
 
-    mul(b) {
-        // ...
-    }
-}
-function madd(a,b)
-{
-    var x=[[],[]];
-    
-
-    for(var i=0;i<a.length;i++)
-    {
-        for(var j=0;j<b[0].length;j++)
+        for(var i=0;i<a.length;i++)
         {
-            var c=0;
-            for(var t=0;t<a[0].length;t++)
+            for(var j=0;j<a[0].length;j++)
             {
-                c=a[i][t]*b[t][j]+c;
+                this.m=a[i][j]+b[i][j];
             }
-            x[i][j]=c;
         }
+        return this.m;
     }
-    return x;
+
+    mul(a,b) {
+        for(var i=0;i<a.length;i++)
+        {
+            for(var j=0;j<b[0].length;j++)
+            {
+                var c=0;
+                for(var t=0;t<a[0].length;t++)
+                {
+                    c=a[i][t]*b[t][j]+c;
+                }
+                this.m=c;
+            }
+        }
+        return this.m;
+    }
 }
 
 var a=[[1,4],[2,3]],b=[[3,1],[5,2]];
-console.log(madd(a,b));
+console.log( mul(a,b));
