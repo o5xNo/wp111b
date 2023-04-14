@@ -16,4 +16,6 @@ function monthToIndex(month) {
     return months[month];
   }
 
+  console.log(monthToIndex("March"));
+  console.log(monthToIndex("August"));
   console.log(monthToIndex("December"));
