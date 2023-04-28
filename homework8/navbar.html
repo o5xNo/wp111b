@@ -31,7 +31,7 @@
         </style>
     </head>
     <body>
-        <div id="nav" onmouseover="navigator()" onmouseout="navnarrow()">
+        <div id="nav" onmouseover="navwide()" onmouseout="navnarrow()">
             <div id="navmain">
                 <p><a href="#aboutus">關於本站</a></p>
                 <p><a href="#example1">範例1</a></p>
@@ -40,7 +40,7 @@
             </div>
         </div>
         <script>
-            function navigator()
+            function navwide()
             {
                 let nav = document.getElementById('nav')
                 nav.style.width = '200px';
