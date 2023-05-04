@@ -28,6 +28,19 @@ let pages =
   `,
 
   '#home':`
+  <div id="main" class="d1">
+    <h1>首頁</h1>
+    <p>歡迎來到這個網站</p>
+    <p>本網站將提供一些強大的功能</p>
+    <p>詳細內容需要登入註冊才可解鎖</p>
+    <div id="main" class="d2">
+      <br>
+      <p>本網站非詐騙網站!!!</p>
+      <p>本網站非詐騙網站!!!</p>
+      <p>本網站非詐騙網站!!!</p>
+      <p>因為很重要所以說3次</p>
+    </div>
+  </div>
   `,
 
   '#logout':`
@@ -36,9 +49,9 @@ let pages =
 
   '#signup':`
   <h2>註冊</h2>
-  <input class="x1" type="text" placeholder="姓名"/>
-  <input class="x1" type="mail" placeholder="電子信箱或手機號碼"/>
-  <input class="x1" type="password" placeholder="設定密碼"/>
+  <input class="x1" type="text" placeholder="姓名"/><br>
+  <input class="x1" type="mail" placeholder="電子信箱或手機號碼"/><br>
+  <input class="x1" type="password" placeholder="設定密碼"/><br>
   <label class="x1" for="birthdaytime">出生年月日:</label><br>
   <input class="x1" required type="date"><br>
   <br>
