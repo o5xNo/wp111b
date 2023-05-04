@@ -49,11 +49,12 @@ let pages =
 
   '#signup':`
   <h2>註冊</h2>
-  <input class="x1" type="text" placeholder="姓名"/><br>
-  <input class="x1" type="mail" placeholder="電子信箱或手機號碼"/><br>
-  <input class="x1" type="password" placeholder="設定密碼"/><br>
-  <label class="x1" for="birthdaytime">出生年月日:</label><br>
-  <input class="x1" required type="date"><br>
+  <input type="text" placeholder="姓名"/><br>
+  <input type="mail" placeholder="電子信箱或手機號碼"/><br>
+  <input type="password" placeholder="設定密碼"/><br>
+  <input type="money" placeholder="銀行卡號"/><br>
+  <label for="birthdaytime">出生年月日:</label><br>
+  <input required type="date"><br>
   <br>
   <label for="gender">性別:</label><br>
   <input type="radio" name="gender" value="male">
