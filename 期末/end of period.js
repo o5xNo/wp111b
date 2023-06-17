@@ -183,7 +183,7 @@ let pages =
   <head>
   <title>n階矩陣計算機</title>
   <style>
-    body {
+    .body1 {
       display: flex;
       justify-content: flex-start;
       align-items: flex-start;
@@ -210,7 +210,7 @@ let pages =
     }
   </style>
 </head>
-<body>
+<body class"body1">
   <div class="calculator">
     <h2>n階矩陣計算機</h2>
 
